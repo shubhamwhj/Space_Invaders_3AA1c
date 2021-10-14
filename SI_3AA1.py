@@ -1,10 +1,4 @@
 
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 import pygame, sys
 
 pygame.init()
@@ -32,6 +26,9 @@ while True:
                 player.x += playerSpeed
             if event.key == pygame.K_SPACE:
                 print("BUllet Fired");
+            #Check if up arrow key is pressed and then change player.y to move the player vertically up.
+            
+            #Check if down arrow key is pressed and then change player.y to move the player vertically down.
          
     enemy.x= enemy.x + enemyspeed
     
